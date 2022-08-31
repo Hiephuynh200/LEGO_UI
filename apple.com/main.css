@@ -1,0 +1,634 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 62.5%;
+}
+
+.main {
+    height: 100vh;
+}
+
+.header {
+    background-color: rgb(255, 207, 0);
+    margin: 0 auto;
+    height: 6.6875rem;
+}
+
+.topbar__header {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   
+}
+
+.topbar__icon-left {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.title__header {
+    font-size: 20px;
+    margin: auto 2rem;
+}
+
+.title__header .title-normal{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 0 1.5rem;
+    text-transform: uppercase;  
+}
+
+.title__header .title-normal:hover {
+    border-bottom: 3px solid rgb(0, 0, 0);
+    transition: all .2s;
+}
+
+.border-new {
+    text-transform: uppercase;  
+    text-decoration: none;
+    color: rgb(208, 2, 27);
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+    padding: 0.8rem 1.25rem;
+}
+
+.border-new:hover {
+    background-color:rgb(0, 0, 0) ;
+    color: #fff;
+}
+
+.logo-header {
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+}
+
+.header__icon {
+    font-size: 20px;
+    margin: auto 0;
+}
+
+.icon {
+    text-decoration: none;
+    margin: 0 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.border-icon-new {
+    cursor: pointer;
+    padding: 12px 11px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    -webkit-box-pack: center;
+}
+
+.icon-normal {
+    position: relative;
+}
+
+.icon-normal span {
+    font-size: 10px;
+    position: absolute;
+}
+
+
+/* body */
+
+
+.body-img {
+    max-width: 100%;
+    position: relative;
+}
+
+.body-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.titile-body {
+    position: absolute;
+    top: 26%;
+    right: 10%;
+    bottom: 0;
+    line-height: 6rem;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.titile-body h2{
+    font-weight: 300;
+    text-align: end;
+    cursor: pointer;
+}
+
+.titile-body span{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.button-img {
+    position: absolute;
+    top: 63%;
+    right: 10%;
+    padding: 1rem 3rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button-img i{
+    margin-left: 1rem;
+}
+
+
+.button-img:hover {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.new-lego {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro-img {
+    display: block;
+    margin:3rem 3rem ;
+}
+
+.intro-img img {
+    vertical-align: middle;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.intro-img-title span {
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.intro-img:hover {
+    text-decoration: underline;
+    color: rgb(0, 109, 183);
+}
+
+
+/* home1 */
+.home1 {
+    margin: 4rem 0;
+}
+
+.home1-title {
+    margin-bottom: 3rem;
+}
+
+
+.home1-title h1{
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+/* home1-product */
+.product{
+    border: 1px solid #cdcdcd;
+    padding: 11px 15px;
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+.wrap-product {
+    -webkit-transform: scale(0.8);
+    transition: all .4s;
+}
+
+
+.wrap-product:hover {
+    transform: scale(0.900901) translateZ(0px);
+}
+
+.home1-top {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+.home1-top i {
+    border:none;
+    border-radius:50%;
+    background-color:#cdcdcd ;  
+    padding: 5px 5px;  
+    color:rgb(0, 109, 183); ;
+    margin-right: 1rem;
+}
+
+
+.home1-product-intro h1{
+    margin: 1rem 0;
+    font-weight: 400;
+}
+
+.home1-product-start {
+    display: flex;
+    max-width: 100%;
+    margin: 1rem 0rem;
+}
+
+.home1-product-start img{
+    width: 0.9375rem;
+    height: 0.9375rem;
+    margin-right: 0.5rem;
+}
+
+.home1-product-price {
+    margin: 01rem 0rem;
+}
+
+
+.home1-product-price span{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.button-wrap {
+    text-align: center;
+}
+
+.button-home1 {
+    padding: 2rem 13rem;
+    text-transform: capitalize;
+    background-color:rgb(253, 128, 36) ;
+    color: rgb(0, 0, 0);
+    border-color: rgb(253, 128, 36) ;
+    font-weight: 800;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+.button-home1:hover {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}
+
+
+.home1-product {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.product-wrap {
+    margin-right: 1rem;
+}
+
+/* home2 */
+
+.spotlight-img {
+    max-width: 100%;
+    display: flex;
+}
+
+.spotlight-img img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    object-fit: revert;
+    width: 100%;
+    height: 100%;
+    inset: 0px;
+}
+
+.spolight-wrap {
+    margin: 0 1rem;
+}
+
+.text-home2 {
+    display: block;
+    text-align: center;
+}
+
+.text-home2 h2{
+    margin: 2rem 0;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.text-home2 span{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+
+.text-home2 h3 {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+h3 i {
+    margin: 0 1rem;
+}
+
+.gift-lego {
+    margin: 16rem 0 0 0;
+}
+
+.wrap-gift-lego {
+    position: relative;
+    max-width: 100%;
+}
+
+.wrap-gift-lego img {
+    width: 100%;
+}
+
+.gift-lego-content {
+    position: absolute;
+    top: 33px;
+    left: 104px;
+    right: 0;
+    display: block;  
+}
+
+.gift-lego-content-text {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight:200 ;
+}
+
+.button-gift {
+    margin-top: 3rem;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.button-gift:hover {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}
+/* home2 */
+
+/* trending now */
+.trending-now {
+    
+}
+
+.feature-layout {
+   display: flex;   margin-top: 36px;
+   justify-content: space-around;
+   max-width: 100%;
+}
+
+.feature-item-img {
+    max-width: 100%;
+    margin: 0 1rem;
+}
+
+.feature-item-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    inset: 0px;
+}
+
+/* trending now */
+
+
+
+/* mobile nav hiệu ứng chuyển động */
+
+.nav__bars-btn {
+   font-size: 35px;
+    color: #fff;
+    display: none;
+}
+
+
+.nav__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.3);
+    display: none;
+    animation: fadeIn linear .2s;
+}
+
+.nav__mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: #fff;
+    z-index: 1;
+    box-shadow: 5px 1px 10px 5px #cdcdcd;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all .4s;
+}
+
+.nav__mobile-link {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 8px 0;
+    text-align: left;
+    font-size: 1.5rem;
+    border-top:1px solid #ccc ;
+    border-bottom:1px solid #ccc ;
+    padding: 2rem 2rem;
+    text-transform: uppercase;
+}
+
+.nav__mobile-link i{
+    margin: 0 2rem;
+}
+
+.nav__mobile-link-new {
+    text-transform: uppercase;
+    width: 100%;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    color: rgb(208, 2, 27);
+    font-size: 0.875rem;
+    display: block;
+    padding: 8px 0;
+    text-align: left;
+    font-size: 2rem;
+    border-bottom:1px solid #ccc ;
+    padding: 2rem 2rem;
+}
+
+.nav__mobile-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid rgb(255, 207, 0);
+    cursor: pointer;
+}
+
+.nav__mobile-menu-link {
+    margin: auto 0;
+}
+
+.nav__mobile-menu-link h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+
+.nav__mobil-icon {
+    margin: auto 0;
+    font-size: 2.5rem; 
+    border-right: 1px solid transparent;
+    border-left: 1px solid rgb(224, 224, 224); 
+    padding: 1rem 2rem;
+    color: rgb(0, 0, 0); 
+}
+
+.nav__play-zone-btn {
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid rgba(48, 85, 181, 0.25);
+    box-shadow: rgb(0 0 0 / 40%) 0px 1px 3px;
+    border-radius: 3px;
+    background: rgb(171, 217, 255);
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.75rem;
+    text-transform: uppercase;
+    padding: 1.3125rem 0.625rem;
+    justify-content: center;
+    width: 88%;
+    border-top: none;
+    display: flex;
+    margin: 2rem 2rem;
+}
+
+.nav__input:checked ~ .nav__overlay{
+    display: block;
+
+}
+
+.nav__input:checked ~ .nav__mobile {
+     transform: translateX(0);
+    opacity: 1;
+} 
+
+ /* footer  */
+.footer {
+    padding: 2.5rem 1.25rem 1.25rem;
+    background-color:rgb(32, 29, 72);
+}
+
+.logo-header-footer {
+    width: 6.0625rem;;
+    height: 6.0625rem;
+}
+
+.wrap-lego-footer-x {
+    display: flex;
+    justify-content:space-between;
+    text-align:left;
+}
+
+.wrap-lego-ins {
+    display:inline-block;
+}
+
+.lego-inf-footer {
+    margin: 1.5rem 0;
+    color: #fff;
+    letter-spacing:1;
+    font-weight:300;
+    
+    list-style-type: none;
+    display:flex;
+    flex-wrap: wrap;
+    gap:1.5rem
+}
+
+.lego-inf-footer a{
+    flex: 1 1 30rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.lego-gift-card {
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.lego-loc {
+    margin-top: 3rem;
+    font-size:2rem;
+    color: #fff;
+    width: 16rem;
+    height: 40px;
+    background-color: rgb(24, 21, 45);
+    border: none;
+}
+
+
+ /* footer  */
+
+
+
+@media (max-width: 1023px) {
+    .nav__bars-btn {
+        display: block;
+        margin: auto 0;
+    }
+
+    .header__icon {
+        display: none;
+    }
+
+    .title__header {
+        display: none;
+    }
+
+    .topbar__header {
+        display: flex;
+        text-align: center;
+    }
+
+    .titile-body {
+        display: none;
+    }
+    .body-img {
+        position:static;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
